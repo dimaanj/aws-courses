@@ -1,0 +1,31 @@
+# Copy this file to terraform.tfvars and fill in the values
+
+aws_region = "us-east-1"
+
+vpc_id = "vpc-xxxxxxxx"
+
+webserver_sg = "sg-xxxxxxxxxxxxx"
+tcpserver_sg = "sg-xxxxxxxxxxxxx"
+udpserver_sg = "sg-xxxxxxxxxxxxx"
+elb_sg = "sg-xxxxxxxxxxxxx"
+
+tcp_client_instance_id = "i-xxxxxxxxxxxxx"
+udp_client_instance_id = "i-xxxxxxxxxxxxx"
+tcp_server_instance_id = "i-xxxxxxxxxxxxx"
+udp_server_instance_id = "i-xxxxxxxxxxxxx"
+
+app_lb = "my-app-load-balancer"
+network_lb = "my-network-load-balancer"
+
+target_group_customers = "customers-target-group"
+target_group_orders = "orders-target-group"
+target_group_tcp_servers = "tcp-servers-target-group"
+target_group_udp_servers = "udp-servers-target-group"
+
+# Port configurations
+http_port = 80
+tcp_port = 8080
+udp_port = 8443
+elb_port = 80
+management_port = 80
+
