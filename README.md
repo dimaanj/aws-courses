@@ -232,11 +232,10 @@ curl -I http://<alb_dns>/
 
 ## Documentation
 
-- **README_PROJECT_STRUCTURE.md**: Detailed architecture and deployment guide
-- **ARCHITECTURE.md**: ASCII traffic flow diagram
-- **ARCHITECTURE_DIAGRAM.md**: Mermaid diagram and technical deep dive
-- **CONCEPTS.md**: Concepts explained for software engineers
-- **VALIDATION_SUMMARY.md**: Task validation and requirements
+For more detailed information:
+
+- **[network/README.md](network/README.md)**: Network layer documentation
+- **[infrastructure/README.md](infrastructure/README.md)**: Infrastructure layer documentation
 
 ## Cleanup
 
